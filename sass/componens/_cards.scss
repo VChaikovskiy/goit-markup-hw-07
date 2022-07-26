@@ -14,6 +14,17 @@
 .app-list>.item-app:nth-child(-n + 3) {
     margin-top: 0px;
 }
+
+.app-content {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    border-right: solid 1px var(--border-color);
+    border-bottom: solid 1px var(--border-color);
+    border-left: solid 1px var(--border-color);
+}
+
 .product-link {
     display: block;
     text-decoration: none;
